@@ -1,0 +1,47 @@
+@import "node_modules/bootstrap/scss/bootstrap";
+
+.note {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  strong {
+    margin-right: 1rem;
+  }
+}
+
+.bd-none {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  &:focus {
+    color: #198754;
+    background-color: transparent;
+  }
+}
+
+@media screen  and (max-width : 1024px) {
+  .navbar-nav {
+    display: flex;
+    flex-direction: unset;
+    .nav-item {
+      margin-right: 10px;
+    }
+  }
+}
+
+@media screen  and (max-width : 540px) {
+  .list-group-item {
+    font-size: 13px;
+  }
+
+  .btn {
+    font-size: 13px;
+  }
+
+  .form-control {
+    padding: 2px 16px;
+  }
+
+  strong {
+    margin-right: 0.5rem;
+  }
+}
