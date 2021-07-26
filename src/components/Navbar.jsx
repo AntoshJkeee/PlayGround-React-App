@@ -10,10 +10,16 @@ function Navbar(props) {
           </div>
           <ul className="navbar-nav">
             <li className="nav-item">
-              <NavLink to="/" className="nav-link">Главная</NavLink>
+              <NavLink to="/" className="nav-link">Информация</NavLink>
             </li>
             <li className="nav-item">
-              <NavLink to="/about" className="nav-link">Информация</NavLink>
+              <NavLink to="/about" className="nav-link">Заметки</NavLink>
+            </li>
+            <li className="nav-item">
+              <NavLink to="/weather" className="nav-link">Погода</NavLink>
+            </li>
+            <li className="nav-item">
+              <NavLink to="/costs" className="nav-link">Расходы</NavLink>
             </li>
           </ul>
         </div>

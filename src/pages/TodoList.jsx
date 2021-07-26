@@ -2,7 +2,7 @@ import React, {useState} from 'react';
 import Form from "../components/Form";
 import Notes from "../components/Notes";
 
-function Home(props) {
+function TodoList(props) {
 
   const [inputValue, setInputValue] = useState('')
 
@@ -41,4 +41,4 @@ function Home(props) {
   );
 }
 
-export default Home;
+export default TodoList;
